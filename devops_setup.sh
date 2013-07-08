@@ -35,4 +35,4 @@ echo "adding ssh key to heroku"
 heroku keys:add
 echo "installing emacs and devops settings"
 git clone https://github.com/startup-class/setup.git
-./setup.sh
+./setup/setup.sh
